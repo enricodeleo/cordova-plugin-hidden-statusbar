@@ -1,31 +1,23 @@
 {
-  "name": "cordova-plugin-transport-security",
-  "version": "0.1.2",
-  "author": "Lee Crossley <leee@hotmail.co.uk> (http://ilee.co.uk/)",
-  "description": "Cordova / PhoneGap Plugin to allow 'Arbitrary Loads' by adding a declaration to the Info.plist file to bypass the iOS 9 App Transport Security",
+  "name": "cordova-plugin-hidden-statusbar",
+  "version": "1.0.0",
+  "author": "Enrico Deleo <hello@enricodeleo.com> (http://enricodeleo.com/)",
+  "description": "Cordova / PhoneGap Plugin that hides the statusbar at launch.",
   "cordova": {
-    "id": "cordova-plugin-transport-security",
+    "id": "cordova-plugin-hidden-statusbar",
     "platforms": [
       "ios"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leecrossley/cordova-plugin-transport-security.git"
+    "url": "git+https://github.com/enricodeleo/cordova-plugin-hidden-statusbar.git"
   },
   "keywords": [
     "cordova",
     "ios",
     "app",
-    "security",
-    "transport",
-    "http",
-    "https",
-    "ats",
-    "ssl",
-    "tls",
-    "nsapptransportsecurity",
-    "nsallowsarbitraryloads",
+    "statusbar",
     "ecosystem:cordova",
     "cordova-ios"
   ],
@@ -37,7 +29,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leecrossley/cordova-plugin-transport-security/issues"
+    "url": "https://github.com/enricodeleo/cordova-plugin-hidden-statusbar/issues"
   },
-  "homepage": "https://github.com/leecrossley/cordova-plugin-transport-security#readme"
+  "homepage": "https://github.com/enricodeleo/cordova-plugin-hidden-statusbar#readme"
 }
